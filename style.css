@@ -28,4 +28,9 @@ header .logo a {
     font-weight: 700;
     font-size: 24px;
     color: rgb(20, 40, 255);
+    transition: 0.5s;
+}
+
+header .logo a:hover {
+    color: #000;
 }
