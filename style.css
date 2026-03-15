@@ -48,6 +48,7 @@ header .logo a:hover {
 .sidebar .logo {
     text-align: center;
     padding: 24px;
+    background: rgba(40, 152, 218, 0.199);
 }
 
 .sidebar .logo h3 {
