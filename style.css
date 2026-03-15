@@ -86,3 +86,7 @@ ul li a {
     font-size: 15px;
     font-weight: 600;
 }
+
+ul li a:hover {
+    color: var(--color-hover);
+}
