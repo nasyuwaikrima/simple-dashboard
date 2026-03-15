@@ -1,6 +1,7 @@
 :root {
     --background: #fff;
     --color: rgb(20, 40, 255);
+    --border: rgba(82, 78, 78, 0.219);
 }
 
 * {
@@ -21,7 +22,7 @@ body {
 .navbar header {
     background: rgba(255, 255, 255, 0.8);
     padding: 1.3rem 2rem;
-    border-bottom: 1px solid rgba(82, 78, 78, 0.219);
+    border-bottom: 1px solid var(--border);
 }
 
 header .logo a {
@@ -39,6 +40,8 @@ header .logo a:hover {
 .sidebar {
     background: rgb(240, 240, 240);
     width: 232px;
+    height: 100vh;
+    border-right: 1px solid var(--border);
 }
 
 .sidebar .logo {
@@ -54,4 +57,16 @@ header .logo a:hover {
 
 .sidebar .logo h5 {
     font-weight: 600;
+}
+
+.sidebar ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sidebar ul li {
+    list-style: none;
+    margin-left: 32px;
+    margin-bottom: 16px;
 }
