@@ -102,3 +102,10 @@ ul li a:hover {
 .home {
     padding: 32px;
 }
+
+.container {
+    padding: 24px;
+    background: rgba(40, 152, 218, 0.199);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+}
