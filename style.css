@@ -38,7 +38,12 @@ header .logo a:hover {
     color: var(--color-hover);
 }
 
+.layout {
+    display: flex;
+}
+
 .sidebar {
+    display: fixed;
     background: rgb(240, 240, 240);
     width: 232px;
     height: 100vh;
@@ -74,8 +79,9 @@ header .logo a:hover {
     padding: 8px 16px;
     transition: 0.3s;
     margin-bottom: 10px;
-}
+} 
 
+.home,
 .sidebar ul li:hover {
     background: #fff;
     border-radius: 8px;
@@ -91,4 +97,8 @@ ul li a {
 
 ul li a:hover {
     color: var(--color-hover);
+}
+
+.home {
+    padding: 32px;
 }
