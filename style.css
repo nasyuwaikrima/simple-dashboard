@@ -49,6 +49,7 @@ header .logo a:hover {
     text-align: center;
     padding: 24px;
     background: rgba(40, 152, 218, 0.199);
+    margin-bottom: 24px;
 }
 
 .sidebar .logo h3 {
