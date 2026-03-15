@@ -1,3 +1,7 @@
+:root {
+    --background: #fff;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -5,5 +9,23 @@
 }
 
 body {
-    background: #fff;
+    background: var(--background);
+    font-family: 'Inter', sans-serif;
+}
+
+.navbar {
+    width: 100%;
+}
+
+.navbar header {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 1.5rem 2rem;
+    border-bottom: 1px solid rgba(82, 78, 78, 0.219);
+}
+
+header .logo a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 24px;
+    color: rgb(20, 40, 255);
 }
