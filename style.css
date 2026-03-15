@@ -2,6 +2,7 @@
     --background: #fff;
     --color: rgb(20, 40, 255);
     --border: rgba(82, 78, 78, 0.219);
+    --color-hover: #042fa7;
 }
 
 * {
@@ -34,7 +35,7 @@ header .logo a {
 }
 
 header .logo a:hover {
-    color: #042fa7;
+    color: var(--color-hover);
 }
 
 .sidebar {
@@ -76,4 +77,11 @@ header .logo a:hover {
 .sidebar ul li:hover {
     background: #fff;
     border-radius: 8px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: var(--color);
+    font-size: 15px;
+    font-weight: 600;
 }
