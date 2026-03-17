@@ -108,4 +108,16 @@ ul li a:hover {
     background: rgba(40, 152, 218, 0.199);
     border: 1px solid var(--border);
     border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container span {
+    font-weight: 600;
+}
+
+.container h1 {
+    color: var(--color);
 }
